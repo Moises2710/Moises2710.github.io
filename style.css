@@ -1,0 +1,57 @@
+/* Estilos básicos */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 56px; /* Para fixed navbar */
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #05153f 0%, #0d2a6e 100%);
+    color: white;
+    padding: 100px 0;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.skill-item {
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    transition: transform 0.3s;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.tech-tags .badge {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+}
