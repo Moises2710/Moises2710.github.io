@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home {
+    padding-top: 80px;
+}
+
+#projects .bg-gray-700:hover {
+    transform: translateY(-10px);
+    border: 1px solid rgba(59, 130, 246, 0.5);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+@media (max-width: 400px) {
+    #contact .grid {
+        padding: 1rem;
+    }
+    #contact p {
+        font-size: 0.875rem;
+    }
+}
